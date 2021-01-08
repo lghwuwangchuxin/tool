@@ -325,6 +325,12 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
         </dependency>
+        <!--分布式锁redisson版本-->
+        <dependency>
+            <groupId>com.snowalker</groupId>
+            <artifactId>redis-distributed-lock-starter</artifactId>
+            <version>1.2.0</version>
+        </dependency>
         <!-- SPRING end -->
         <!-- web begin Spring MVC Test Framework 需要 servlet-api 3.0 以上  -->
         <dependency>
